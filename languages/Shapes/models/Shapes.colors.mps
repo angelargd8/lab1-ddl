@@ -25,5 +25,8 @@
   <node concept="2yhqEE" id="6tNKYb5e14d">
     <property role="TrG5h" value="red" />
   </node>
+  <node concept="2yhqEE" id="6tNKYb5eije">
+    <property role="TrG5h" value="green" />
+  </node>
 </model>
 

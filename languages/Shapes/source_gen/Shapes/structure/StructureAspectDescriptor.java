@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptColorReference = createDescriptorForColorReference();
   /*package*/ final ConceptDescriptor myConceptShape = createDescriptorForShape();
   /*package*/ final ConceptDescriptor myConceptSquare = createDescriptorForSquare();
+  /*package*/ final ConceptDescriptor myConceptTriangle = createDescriptorForTriangle();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -33,7 +34,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare);
+    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare, myConceptTriangle);
   }
 
   @Override
@@ -52,6 +53,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptShape;
       case LanguageConceptSwitch.Square:
         return myConceptSquare;
+      case LanguageConceptSwitch.Triangle:
+        return myConceptTriangle;
       default:
         return null;
     }
@@ -120,6 +123,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("upperLeftY", 0x6773c3e2c5344c4dL).type(PrimitiveTypeId.INTEGER).origin("7454517186966867021").done();
     b.property("size", 0x6773c3e2c5344c4eL).type(PrimitiveTypeId.INTEGER).origin("7454517186966867022").done();
     b.alias("square");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTriangle() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Triangle", 0xb0105c5f02f0460fL, 0xa27b731323c47f3fL, 0x6773c3e2c53924a5L);
+    b.class_(false, false, false);
+    // extends: Shapes.structure.Shape
+    b.super_(0xb0105c5f02f0460fL, 0xa27b731323c47f3fL, 0x6773c3e2c5344c44L);
+    b.origin("r:eac7bf38-bac4-48ca-88d4-3294ea18d2aa(Shapes.structure)/7454517186967184549");
+    b.version(3);
+    b.property("side", 0x6773c3e2c53924a9L).type(PrimitiveTypeId.INTEGER).origin("7454517186967184553").done();
+    b.property("angle", 0x6773c3e2c53924a7L).type(PrimitiveTypeId.INTEGER).origin("7454517186967184551").done();
+    b.alias("triangle");
     return b.create();
   }
 }
