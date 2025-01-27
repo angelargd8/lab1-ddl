@@ -138,21 +138,5 @@
       <ref role="20lvS9" node="6tNKYb5dA_8" resolve="Color" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6tNKYb5eii_">
-    <property role="EcuMT" value="7454517186967184549" />
-    <property role="TrG5h" value="Triangle" />
-    <property role="34LRSv" value="triangle" />
-    <ref role="1TJDcQ" node="6tNKYb5d4L4" resolve="Shape" />
-    <node concept="1TJgyi" id="6tNKYb5eiiD" role="1TKVEl">
-      <property role="IQ2nx" value="7454517186967184553" />
-      <property role="TrG5h" value="side" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="6tNKYb5eiiB" role="1TKVEl">
-      <property role="IQ2nx" value="7454517186967184551" />
-      <property role="TrG5h" value="angle" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-  </node>
 </model>
 

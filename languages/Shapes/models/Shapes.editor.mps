@@ -178,29 +178,5 @@
       <node concept="l2Vlx" id="6tNKYb5dOfR" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="6tNKYb5eiiH">
-    <ref role="1XX52x" to="ile4:6tNKYb5eii_" resolve="Triangle" />
-    <node concept="3EZMnI" id="6tNKYb5eiiJ" role="2wV5jI">
-      <node concept="3F0ifn" id="6tNKYb5eiiT" role="3EZMnx">
-        <property role="3F0ifm" value="triangle" />
-      </node>
-      <node concept="3F0ifn" id="6tNKYb5eijb" role="3EZMnx">
-        <property role="3F0ifm" value="side :" />
-      </node>
-      <node concept="3F0A7n" id="6tNKYb5eiiZ" role="3EZMnx">
-        <ref role="1NtTu8" to="ile4:6tNKYb5eiiD" resolve="side" />
-      </node>
-      <node concept="3F0ifn" id="6tNKYb5eij3" role="3EZMnx">
-        <property role="3F0ifm" value="angle : " />
-      </node>
-      <node concept="3F0A7n" id="6tNKYb5eij5" role="3EZMnx">
-        <ref role="1NtTu8" to="ile4:6tNKYb5eiiB" resolve="angle" />
-      </node>
-      <node concept="PMmxH" id="6tNKYb5eij7" role="3EZMnx">
-        <ref role="PMmxG" node="6tNKYb5dOfM" resolve="ShapeColor" />
-      </node>
-      <node concept="l2Vlx" id="6tNKYb5eiiM" role="2iSdaV" />
-    </node>
-  </node>
 </model>
 

@@ -17,9 +17,6 @@ public class MyDrawing extends JFrame {
       .setColor(Color.red);
       .drawOval(10, 20, 30, 30);
 
-      .setColor(Color.red);
-      .drawOval(30, 30, 100, 100);
-
       .setColor(Color.blue);
       .drawRect(100, 200, 50, 50);
 
