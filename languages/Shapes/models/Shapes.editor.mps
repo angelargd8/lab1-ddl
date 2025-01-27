@@ -131,7 +131,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F2HdR" id="6tNKYb5dlSn" role="3EZMnx">
-        <ref role="1NtTu8" to="ile4:6tNKYb5d4Lj" />
+        <ref role="1NtTu8" to="ile4:6tNKYb5d4Lj" resolve="shapes" />
         <node concept="2iRkQZ" id="6tNKYb5dlSq" role="2czzBx" />
         <node concept="VPM3Z" id="6tNKYb5dlSr" role="3F10Kt" />
         <node concept="ljvvj" id="6tNKYb5dlSs" role="3F10Kt">
