@@ -28,10 +28,6 @@
       <concept id="7454517186966867024" name="Shapes.structure.Canvas" flags="ng" index="2yhSYM">
         <child id="7454517186966867027" name="shapes" index="2yhSYL" />
       </concept>
-      <concept id="7454517186967184549" name="Shapes.structure.Triangle" flags="ng" index="2yiIt7">
-        <property id="7454517186967184551" name="angle" index="2yiIt5" />
-        <property id="7454517186967184553" name="side" index="2yiItb" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -55,13 +51,6 @@
       <property role="2yhSYG" value="50" />
       <node concept="2yh80X" id="6tNKYb5e14f" role="2yh80c">
         <ref role="2yh802" to="1n0g:6tNKYb5e14b" resolve="blue" />
-      </node>
-    </node>
-    <node concept="2yiIt7" id="6tNKYb5esuC" role="2yhSYL">
-      <property role="2yiItb" value="100" />
-      <property role="2yiIt5" value="60" />
-      <node concept="2yh80X" id="6tNKYb5esuF" role="2yh80c">
-        <ref role="2yh802" to="1n0g:6tNKYb5eije" resolve="green" />
       </node>
     </node>
   </node>
